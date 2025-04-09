@@ -91,9 +91,9 @@ QA & Deployment
 Asset Checklist
 
 Provided
-	•	Logo (SVG/PNG)
 
 To Generate
+	•	Logo (SVG/PNG)
 	•	Favicon (32x32 PNG)
 	•	Color palette and font pairing reference
 	•	Hero section image (gutter installation or abstract water/rain texture)
@@ -111,6 +111,11 @@ To Generate
 	•	Team photo or workspace photo (for About page)
 	•	Testimonial image (optional)
 	•	Knowledge base/blog header image (optional)
+
+Generated
+	•	Favicon (32x32 PNG)
+	•	Color palette and font pairing reference
+	•	Icons for services/values
 
 ⸻
 
