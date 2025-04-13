@@ -1,5 +1,4 @@
-<section class="relative w-full h-screen bg-cover bg-center text-white" style="background-image: url('/images/gutter-header.png');">
-  <div class="absolute inset-0 bg-black/60"></div>
+<section class="relative w-full h-screen text-white">
   <div class="relative z-10 flex flex-col justify-center items-start h-full px-6 max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl font-semibold max-w-2xl">
       Material Selection

@@ -1,4 +1,4 @@
-<section id="materials" class="py-20 bg-white text-gray-800">
+<section id="materials" class="py-20 text-gray-300">
   <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center">
     <div>
       <div class="text-3xl mb-4">🖼️</div>
