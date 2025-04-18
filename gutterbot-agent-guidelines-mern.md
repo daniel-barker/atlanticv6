@@ -17,10 +17,11 @@ Atlantic Gutter Supply is a long-established supplier of gutter materials and to
 ---
 
 ## 🛠️ Technical Stack
-	•	Frontend: SvelteKit
-	•	Backend/API: SvelteKit endpoints (+server.js/ts)
-	•	Database: MongoDB (Atlas. Connection string in .env
-	•	Auth (Optional): Use your own auth system (e.g., JWTs, bcrypt, cookie-based sessions)
+- **Frontend**: React (via Vite) + Tailwind CSS v4
+- **Backend/API**: Express.js
+- **Database**: MongoDB (Atlas)
+- **Auth**: JWT-based authentication
+- **Hosting**: Vercel or Render
 
 ---
 
@@ -47,8 +48,8 @@ Atlantic Gutter Supply is a long-established supplier of gutter materials and to
 ## 🧩 Components to Build
 
 ### Global Layout
-- Header with nav
-- Footer with contact & quick links
+- Header with nav (About, Services, Products, Contact)
+- Footer with contact & quick links (including ToS and Privacy Policy)
 
 ### Page Components
 - Hero w/ CTA
@@ -63,16 +64,17 @@ Atlantic Gutter Supply is a long-established supplier of gutter materials and to
 ## 🧾 Asset Expectations
 Use the logo. Everything else (icons, images, colors) must be generated or sourced according to:
 - Blue/white/yellow palette
-- Light industrial look
+- Industrial look
 - Home improvement visuals (gutters, roofs, aluminum, etc.)
+Please note when asset generation is needed.
 
 ---
 
 ## 🔐 Admin Functionality
-- Firebase email login
-- Admin-only access to CRUD dashboard
-- Firestore schema: `products`, `services`, `articles`, `users`
-- Firestore rules: no write access for public users
+- JWT-based login (email + password)
+- Admin-only access to protected dashboard
+- MongoDB schema: `products`, `services`, `articles`, `users`
+- Route protection middleware on the Express backend
 
 ---
 
@@ -81,7 +83,8 @@ Use the logo. Everything else (icons, images, colors) must be generated or sourc
 - Mobile-first layout using Tailwind
 - Nav + footer
 - 4-5 essential pages (Home, Products, Services, About, Contact)
-- Firebase Auth + Firestore hooked up and deployed
+- Auth flow with protected routes
+- Mongo + Express backend connected to frontend
 
 ---
 
